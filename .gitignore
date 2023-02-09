@@ -31,3 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
+comicsapp_local_db.mv.db
+comicsapp_local_db.trace.db
