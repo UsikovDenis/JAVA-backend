@@ -5,6 +5,8 @@ import com.example.javaback.entity.User;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.UUID;
 
 @Getter
@@ -13,6 +15,7 @@ public class UserDto {
 
     private UUID id;
     private String nickName;
+    private List<UUID> files;
 
 
 //    public UserDto(UUID id, String name) {
